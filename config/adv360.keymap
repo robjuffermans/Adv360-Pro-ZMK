@@ -36,6 +36,7 @@
         flavor = "hold-preferred";
         tapping-term-ms = <200>;
         quick_tap_ms = <175>;
+        bindings = <&kp>, <&kp>;
     };
   };
 
