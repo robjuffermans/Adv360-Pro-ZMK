@@ -31,6 +31,12 @@
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
+    ht_hp: hold_tap_hold_preferred {
+        compatible = "zmk,behavior-hold-tap";
+        flavor = "hold-preferred";
+        tapping-term-ms = <200>;
+        quick_tap_ms = <175>;
+    };
   };
 
     keymap {
